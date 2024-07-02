@@ -1,6 +1,4 @@
-##### `interfaces`: Configuration file for network interfaces
 
-```plaintext
 # /etc/network/interfaces
 
 auto lo
