@@ -1,4 +1,4 @@
-### `issue_resolution_guide.md`
+Certainly! Here's a revised version of the `issue_resolution_guide.md` file for your Ubuntu troubleshooting GitHub project:
 
 ```markdown
 # Ubuntu Issue Resolution Guide
@@ -18,7 +18,9 @@ This guide provides steps and solutions for resolving common issues encountered 
 
 ## Disk Space Issues
 
-To check disk space usage:
+### Checking Disk Space Usage
+
+To check disk space usage on Ubuntu, use the following command:
 
 ```bash
 ./scripts/check_disk_space.sh
@@ -26,69 +28,88 @@ To check disk space usage:
 
 If disk space is low, consider removing unnecessary files or expanding disk capacity.
 
+---
+
 ## Memory Usage Problems
 
-To check memory usage:
+### Checking Memory Usage
+
+To check memory usage on Ubuntu, use the following command:
 
 ```bash
 ./scripts/check_memory_usage.sh
 ```
 
-Review processes consuming high memory. Consider closing or optimizing memory-intensive applications.
+Review processes consuming high memory and consider optimizing memory usage.
+
+---
 
 ## Network Connectivity Troubleshooting
 
-To check network connectivity:
+### Checking Network Connectivity
+
+To check network connectivity on Ubuntu, use the following command:
 
 ```bash
 ./scripts/check_network.sh
 ```
 
-If connectivity issues persist, restart networking service:
+If connectivity issues persist, restart the networking service:
 
 ```bash
 ./scripts/fix_network_issues.sh
 ```
 
+---
+
 ## Service Status Checks
 
-To check status of essential services (e.g., SSH):
+### Checking Service Status
+
+To check the status of essential services on Ubuntu, use the following command:
 
 ```bash
 ./scripts/check_service_status.sh
 ```
 
-Restart services if necessary:
+Restart services if necessary to resolve issues.
 
-```bash
-sudo systemctl restart <service_name>
-```
+---
 
 ## System Logs Analysis
 
-To analyze system logs for errors:
+### Analyzing System Logs
+
+To analyze system logs for errors on Ubuntu, use the following command:
 
 ```bash
 ./scripts/check_system_logs.sh
 ```
 
-Review syslog for any critical errors or warnings.
-
-## Fixing Startup Problems
-
-To troubleshoot and fix startup issues:
-
-```bash
-./scripts/fix_startup_issues.sh
-```
-
-Check kernel logs for startup errors:
-
-```bash
-dmesg | grep error
-```
+Review syslog for any critical errors or warnings that may indicate issues.
 
 ---
 
-This guide helps diagnose and resolve common Ubuntu issues efficiently. For more complex issues, refer to additional documentation or seek assistance from Ubuntu community forums.
+## Fixing Startup Problems
+
+### Troubleshooting Startup Issues
+
+To troubleshoot and fix startup problems on Ubuntu, follow these steps:
+
+1. **Boot Failure:**
+   - Check BIOS settings and verify disk integrity with `fsck`.
+   
+2. **Kernel Panic:**
+   - Review kernel logs (`dmesg`) for hardware or driver-related errors.
+
+3. **Grub Issues:**
+   - Repair Grub bootloader using `grub-install` and `update-grub`.
+
+4. **Service Initialization Failures:**
+   - Check for failed services using `systemctl --failed` and restart as needed.
+
+---
+
+This guide provides a systematic approach to diagnosing and resolving common Ubuntu issues. For more complex problems or additional assistance, refer to official Ubuntu documentation or community forums.
 ```
+
