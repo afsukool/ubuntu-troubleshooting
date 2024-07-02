@@ -1,5 +1,3 @@
-### GitHub Project: Troubleshooting Common Ubuntu Issues
-
 This project aims to provide scripts and documentation for troubleshooting common issues encountered on Ubuntu systems.
 
 #### Project Structure
