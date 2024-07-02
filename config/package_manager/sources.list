@@ -1,5 +1,3 @@
-##### `sources.list`: Configuration file for APT package sources
-
 ```plaintext
 # /etc/apt/sources.list
 
