@@ -1,6 +1,3 @@
-### `troubleshooting_package_manager.md`
-
-```markdown
 # Troubleshooting Package Manager Issues
 
 This document provides troubleshooting steps for resolving issues with the package manager (APT) on Ubuntu.
