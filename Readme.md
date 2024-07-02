@@ -1,5 +1,3 @@
-#### `README.md`
-
 ```markdown
 # Ubuntu Troubleshooting Guide
 
