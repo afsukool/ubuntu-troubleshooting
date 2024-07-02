@@ -1,4 +1,4 @@
-```plaintext
+```bash
 # /etc/apt/sources.list
 
 deb http://archive.ubuntu.com/ubuntu focal main restricted
