@@ -1,4 +1,4 @@
-```bash
+
 # /etc/apt/sources.list
 
 deb http://archive.ubuntu.com/ubuntu focal main restricted
@@ -10,4 +10,3 @@ deb-src http://archive.ubuntu.com/ubuntu focal-updates main restricted
 deb http://archive.ubuntu.com/ubuntu focal universe
 deb-src http://archive.ubuntu.com/ubuntu focal universe
 ...
-```
