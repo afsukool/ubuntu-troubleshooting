@@ -1,6 +1,3 @@
-### `troubleshooting_network.md`
-
-```markdown
 # Troubleshooting Network Issues
 
 This document provides troubleshooting steps for resolving network connectivity issues on Ubuntu.
