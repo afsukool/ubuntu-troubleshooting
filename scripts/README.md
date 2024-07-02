@@ -1,5 +1,3 @@
-#### `scripts/`
-
 This directory contains executable scripts for checking system health and fixing common issues.
 
 - `check_disk_space.sh`: Script to check disk space usage.
